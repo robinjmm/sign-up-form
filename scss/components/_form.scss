@@ -9,6 +9,22 @@
     &__group {
         width: 90%;
         margin: 0 auto rem(20px);
+        position: relative;
+    }
+
+    &__icon {
+        content: url('../../images/icon-error.svg');
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        visibility: hidden;
+    }
+
+    &__error-text {
+        color: var(--accent-red);
+        font-size: rem(14px);
+        margin-top: .5em;
+        text-align: right;
     }
 
     &__input {

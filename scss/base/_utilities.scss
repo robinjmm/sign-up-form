@@ -1,0 +1,9 @@
+@use './variables' as *;
+
+.border-error {
+    border: 1px solid var(--accent-red);
+}
+
+.visible {
+    visibility: visible;
+}

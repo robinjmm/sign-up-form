@@ -1,0 +1,22 @@
+{
+  "name": "sign-up-form",
+  "version": "1.0.0",
+  "description": "A challenge to build a Sign Up form from Frontendmentor.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinjmm/sign-up-form.git"
+  },
+  "author": "robinjmm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robinjmm/sign-up-form/issues"
+  },
+  "homepage": "https://github.com/robinjmm/sign-up-form#readme",
+  "devDependencies": {
+    "sass": "^1.52.1"
+  }
+}

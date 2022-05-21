@@ -1,0 +1,32 @@
+@use '../base/variables' as *;
+
+body {
+    background-color: var(--accent-red);
+    background-image: url('../../images/bg-intro-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--text-color);
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-normal);
+    padding: 10vh 0;
+}
+
+header {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading {
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.sub-heading {
+    line-height: 1.7;
+}
+
+main {
+    width: 85%;
+    margin: rem(60px) auto 0;
+}

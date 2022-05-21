@@ -1,0 +1,46 @@
+@use '../base/variables' as *;
+
+.form {
+    background-color: var(--bg-form);
+    border-radius: em(10px, 16px);
+    padding: em(30px, 16px) 0;
+    box-shadow: 0 10px 0px rgba(0, 0, 0, 0.2);
+
+    &__group {
+        width: 90%;
+        margin: 0 auto rem(20px);
+    }
+
+    &__input {
+        width: 100%;
+        padding: em(20px, 16px);
+        border: 1px solid var(--border-color);
+        border-radius: em(10px, 16px);
+        color: var(--input-text-color);
+        font-weight: var(--fw-semi-bold);
+
+        &::placeholder {
+            font-weight: var(--fw-semi-bold);
+            color: var(--tos-text-color);
+        }
+
+        &:focus,
+        &:active {
+            outline: 1px solid var(--border-dark-color);
+        }
+    }
+
+    &__tos {
+        text-align: center;
+        font-size: rem(12px);
+        font-weight: var(--fw-medium);
+        color: var(--tos-text-color);
+        width: 85%;
+        margin: 0 auto;
+
+        &--red {
+            color: var(--accent-red);
+            font-weight: var(--fw-semi-bold);
+        }
+    }
+}

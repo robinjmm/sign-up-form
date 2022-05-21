@@ -1,0 +1,36 @@
+:root {
+    // Colors
+    --text-color: hsl(0, 0%, 100%);
+    --tos-text-color: hsl(246, 25%, 77%);
+    --input-text-color: hsl(249, 10%, 26%);
+    --accent-red: hsl(0, 100%, 74%);
+
+    --bg-form: hsl(0, 0%, 100%);
+    --bg-card: hsl(248, 32%, 49%);
+    --bg-main: hsl(0, 100%, 74%);
+    --bg-button: hsl(154, 59%, 51%);
+
+    --border-color: hsl(246, 25%, 77%);
+    --border-dark-color: hsl(249, 10%, 26%);
+
+    // Fonts
+    --ff-primary: 'Poppins', sans-serif;
+    --fw-normal: 400;
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+}
+
+// Convert pixel to rem values
+@function rem($value) {
+    $remValue: calc(($value / 1rem) * 1rem);
+    @return $remValue;
+}
+
+
+// $value is the desired size
+// $base is font-size of the parent
+@function em($value, $base) {
+    $emValue: calc(($value / $base) * 1em);
+    @return $emValue;
+}

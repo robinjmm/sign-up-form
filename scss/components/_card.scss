@@ -12,6 +12,8 @@
     &__text {
         font-weight: var(--fw-normal);
         line-height: 1.6;
+        width: 60%;
+        margin: 0 auto;
 
         &--bold {
             font-weight: var(--fw-semi-bold);
